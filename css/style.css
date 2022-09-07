@@ -1,0 +1,15 @@
+/* import google font | poppins  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+li{
+    list-style: none;
+    font-weight: 500;
+    cursor: pointer;
+}
+.card{
+    border: none;
+    padding: 30px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-bottom: 90px;
+}

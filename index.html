@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- connect bootstrap  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <!-- link css  -->
+    <link rel="stylesheet" href="css/style.css">
+    <title>Fashion Times</title>
+</head>
+<body class="container">
+    <!-- navbar start here  -->
+    <nav class="navbar navbar-expand-lg navbar-light ">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img style="width:140px ;" src="images/ftlogo.png" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="#">News</a>
+              <a class="nav-link" href="blog.html">Blog</a>
+              <a class="nav-link" href="#">Features</a>
+            </div>
+          </div>
+          <div>
+            <img style="width:90px ;" src="images/person.png" alt="">
+          </div>
+        </div> 
+      </nav>
+      <!-- navbar end here  -->
+      <hr>
+    
+    
+      <!-- cetagory section start here-->
+    <section class="cetagory-section">
+        <div>
+            <ul class="d-flex justify-content-around" id="li-container">
+                
+            </ul>
+        </div>
+    </section>
+    <!-- cetagory section end here  -->
+
+    <!-- item count section  -->
+    <section class="item-count-section">
+      <div id="item-count" class="bg-light border-white rounded mb-5">
+        
+      </div>
+    </section>
+    <!-- item count section end  -->
+
+    <!-- card section start here  -->
+    <section class="card-section">
+      <div id="display-card">
+        
+      </div>
+    </section>
+    <!-- card section end here  -->
+
+
+    <!-- spinner seciton start here  -->
+    <section>
+      <div id="spinner" style="height:500px ;" class="text-success d-flex justify-content-center align-items-center d-none">
+          <div class="spinner-border" role="status">
+            <span class="visually-hidden">Loading...</span>
+          </div>
+        </div>
+    </section>
+    <!-- spinner section end here  -->
+
+    <!-- modal section start here  -->
+    <section>
+      <div class="modal fade" id="newsDetails" tabindex="-1" aria-labelledby="newsDetailsLabel" aria-hidden="true">
+        <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h5 class="modal-title" id="newsDetailsLabel">Details News</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div id="modal-body" class="modal-body">
+            
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+        </div>
+        </div>
+      </div>
+    </section>
+    <!-- modal section end here  -->
+
+    <!-- link javascript  -->
+    <script src="js/app.js"></script>
+    <!-- link bootstrap  -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script>
+</body>
+</html>
